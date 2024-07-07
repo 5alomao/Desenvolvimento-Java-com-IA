@@ -1,10 +1,63 @@
 package view;
 
+import model.set.product.ProductSet;
+
 // Importar as classes utilizadas
 
 public class Main {
 
 	public static void main(String[] args) {
+
+//		ProductSet ps = new ProductSet();
+//		ps.addProduct(1L, "Z 1", 10);
+//		ps.addProduct(2L, "P 2", 15);
+//		ps.addProduct(5L, "B 5", 11);
+//		ps.addProduct(3L, "F 3", 5);
+//		ps.displayProducts();
+//		System.out.println(ps.sortByName());
+//		System.out.println(ps.sortByPrice());		
+
+//		TaskSet ts = new TaskSet();
+//		ts.addTask("Task 1", false);
+//		ts.addTask("Task 2", false);
+//		ts.addTask("Task 3", true);
+//		ts.displayTasks();
+//		System.out.println(ts.countTasks());
+//		System.out.println(ts.getDoneTasks());
+//		System.out.println(ts.getPendingTasks());
+//		ts.markTaskAsCompleted("Task 1");
+//		System.out.println(ts.getDoneTasks());
+//		ts.markTaskAsPending("Task 3");
+//		System.out.println(ts.getPendingTasks());
+
+//		ContactBook cb = new ContactBook();
+//		cb.addBook("Contact 1", 123);
+//		cb.addBook("Contact 12", 12);
+//		cb.addBook("Contact 22", 1234);
+//		cb.displayContacts();
+//		System.out.println(cb.searchByName("Contact 1"));
+//		cb.updateContactName(123, "Contact 33");
+//		cb.displayContacts();
+
+//		UniqueWordsSet unq = new UniqueWordsSet();
+//		unq.addWord("word");
+//		unq.addWord("word 2");
+//		System.out.println(unq.checkWord("word"));
+//		unq.displayUniqueWords();
+//		unq.removeWord("word 2");
+//		System.out.println(unq.checkWord("word 2"));
+//		unq.displayUniqueWords();
+
+//		GuestList gl = new GuestList();
+//		gl.addGuest("Guest 1", 123);
+//		gl.addGuest("Guest 11", 123);
+//		gl.addGuest("Guest 2", 1236);
+//		gl.addGuest("Guest 3", 1234);
+//		System.out.println(gl.countGuests());
+//		gl.displayGuests();
+//		gl.removeGuestByInvitationCode(123);
+//		System.out.println(gl.countGuests());
+//		gl.displayGuests();
 
 //		NumberSorter nbs = new NumberSorter();
 //		nbs.addNumber(10);
