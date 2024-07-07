@@ -1,12 +1,23 @@
 package view;
 
-import model.set.product.ProductSet;
+import model.set.student.StudentManager;
 
 // Importar as classes utilizadas
 
 public class Main {
 
 	public static void main(String[] args) {
+
+//		StudentManager sm = new StudentManager();
+//		sm.addStudent(1L, "S1", 9.35);
+//		sm.addStudent(4L, "J1", 6.82);
+//		sm.addStudent(2L, "A3", 8.21);
+//		sm.addStudent(5L, "C3", 5.8);
+//		sm.displayStudents();
+//		sm.removeStudent(1L);
+//		sm.displayStudents();
+//		System.out.println(sm.sortByName());
+//		System.out.println(sm.sortByGrade());
 
 //		ProductSet ps = new ProductSet();
 //		ps.addProduct(1L, "Z 1", 10);
