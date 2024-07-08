@@ -1,12 +1,77 @@
 package view;
 
-import model.set.student.StudentManager;
+import model.map.book.BookMap;
 
 // Importar as classes utilizadas
 
 public class Main {
 
 	public static void main(String[] args) {
+
+		BookMap bm = new BookMap();
+		bm.addBook("123", "Book 1", "A1", 10);
+		bm.addBook("13", "Book 1", "A1", 30);
+		bm.addBook("321", "Book 3", "A5", 5);
+		bm.addBook("444", "Book 4", "A2", 15);
+		bm.addBook("14", "Book 4", "A2", 25);
+		System.out.println(bm.sortByPrice());
+		System.out.println(bm.sortByAuthor());
+		bm.removeBook("Book 1");
+		System.out.println(bm.sortByPrice());
+		System.out.println(bm.getMostExpensiveBook());
+		System.out.println(bm.getLeastExpensiveBook());
+		System.out.println(bm.searchBooksByAuthor("A2"));
+
+//		EventSchedule es = new EventSchedule();
+//		es.addEvent(LocalDate.of(2022, Month.JULY, 15), "Event 1", "Attraction 1");
+//		es.addEvent(LocalDate.of(2022, 7, 9), "Event 2", "Attraction 2");
+//		es.addEvent(LocalDate.of(2000, Month.JANUARY, 12), "Event 0", "Attraction 4");
+//		es.addEvent(LocalDate.of(2024, Month.JULY, 15), "Event 5", "Attraction 3");
+//		es.addEvent(LocalDate.of(2024, Month.JULY, 6), "Event 10", "Attraction 2");
+//		es.displayEvents();
+//		es.getNextEvent();
+
+//		CountWords cw = new CountWords();
+//		cw.addWord("W3", 3);
+//		cw.addWord("W1", 1);
+//		cw.addWord("W5", 5);
+//		cw.displayWords();
+//		cw.removeWord("W1");
+//		cw.displayWords();
+//		System.out.println(cw.getMostFrequentWord());
+
+//		ProductInventory pi = new ProductInventory();
+//		pi.addProduct(1L, "Product 1", 10, 3);
+//		pi.addProduct(2L, "Product 2", 11, 2);
+//		pi.addProduct(3L, "Product 3", 4, 5);
+//		pi.addProduct(4L, "err", 2.5, 10);
+//		pi.addProduct(4L, "Product 4", 3.5, 4);
+//		pi.displayProducts();
+//		System.out.println(pi.calculateTotalPrice());
+//		System.out.println(pi.getMostExpensiveProduct());
+//		System.out.println(pi.getLeastExpensiveProduct());
+//		System.out.println(pi.getProductWithHighestStockValue());
+
+//		Dictionary dt = new Dictionary();
+//		dt.addWord("W1", "W");
+//		dt.addWord("W1", "WW");
+//		dt.addWord("W2", "WW");
+//		dt.addWord("W3", "WWW");
+//		dt.displayWords();
+//		dt.removeWord("WE");
+//		dt.removeWord("W2");
+//		dt.displayWords();
+//		System.out.println(dt.findByWord("W3"));
+
+//		ContactBook cb = new ContactBook();
+//		cb.addContact("Contact 1", 1234);
+//		cb.addContact("Contact 3", 4321);
+//		cb.addContact("Contact 1", 123);
+//		cb.addContact("Contact 2", 321);
+//		cb.displayContacts();
+//		cb.removeContact("Contact 2");
+//		cb.displayContacts();
+//		System.out.println(cb.findContactByName("Contact 3"));
 
 //		StudentManager sm = new StudentManager();
 //		sm.addStudent(1L, "S1", 9.35);
